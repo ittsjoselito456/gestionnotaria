@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Spinner
+        android:id="@+id/filtroSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/selecciona_filtro"
+        style="@style/TextAppearance.App.WhiteText"/>
+
+    <Spinner
+        android:id="@+id/clienteNotarioSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        style="@style/TextAppearance.App.WhiteText"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/citasRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/TextAppearance.App.WhiteText"/>
+</LinearLayout>

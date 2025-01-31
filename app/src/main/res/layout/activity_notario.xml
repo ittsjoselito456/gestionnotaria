@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido, Notario"
+        android:textSize="24sp"
+        style="@style/TextAppearance.App.WhiteText"/>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        style="@style/TextAppearance.App.WhiteText"/>
+
+    <Button
+        android:id="@+id/btn_create_cita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crear Cita"
+        android:layout_marginTop="20dp"
+        style="@style/TextAppearance.App.WhiteText"/>
+
+    <Button
+        android:id="@+id/btn_modify_cita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Modificar Cita"
+        android:layout_marginTop="10dp"
+        style="@style/TextAppearance.App.WhiteText"/>
+
+    <Button
+        android:id="@+id/btn_delete_cita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eliminar Cita"
+        android:layout_marginTop="10dp"
+        style="@style/TextAppearance.App.WhiteText"/>
+
+    <Button
+        android:id="@+id/btn_consult_citas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consultar Citas"
+        android:layout_marginTop="10dp"
+        style="@style/TextAppearance.App.WhiteText"/>
+    <Button
+        android:id="@+id/btn_add_despacho"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar Despacho"
+        android:layout_marginTop="10dp"
+        style="@style/TextAppearance.App.WhiteText"/>
+
+    <Button
+        android:id="@+id/btn_del_despacho"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eliminar Despacho"
+        android:layout_marginTop="10dp"
+        style="@style/TextAppearance.App.WhiteText"/>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Gestion Notaria</string>
+
+    <string-array name="roles_array">
+        <item>notario</item>
+        <item>cliente</item>
+    </string-array>
+
+    <string name="selecciona_filtro">Selecciona un filtro</string>
+</resources>

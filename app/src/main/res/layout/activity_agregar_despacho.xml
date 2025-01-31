@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/nombreDespacho"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del despacho"
+        android:inputType="text"
+        style="@style/TextAppearance.App.WhiteText"/>
+
+    <EditText
+        android:id="@+id/direccionDespacho"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dirección del despacho"
+        android:inputType="text"
+        style="@style/TextAppearance.App.WhiteText"/>/>
+
+
+    <Button
+        android:id="@+id/btn_agregar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar Despacho"
+        android:layout_marginTop="16dp"
+        style="@style/TextAppearance.App.WhiteText"/>/>
+</LinearLayout>

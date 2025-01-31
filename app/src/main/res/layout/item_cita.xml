@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/citaId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cita ID"
+        android:textSize="16sp"
+        style="@style/TextAppearance.App.WhiteText"/>
+
+    <TextView
+        android:id="@+id/citaFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fecha"
+        android:textSize="16sp"
+        style="@style/TextAppearance.App.WhiteText"/>
+</LinearLayout>
